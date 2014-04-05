@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Insert Your Custom Styles Below. All styles located in this file will
+   override existing main.css stylesheets.
+   ========================================================================== */ 
+
+#contact {
+    background: #660066;
+    background-repeat: repeat-x;
+    border-color: #660066;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+#about, #faculty, #application, #curriculum, #contact {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+#faculty p {
+    color: gray;
+}
+
+#faculty p.lead {
+    color: #660066;
+}
+
+textarea {
+    width: 60%;
+}
+
+#email-addr, #email-name {
+    width: 50%;
+}
+
+#app-ps {
+    width: 80%;
+}
+
+.header-image {
+    background: url(../img/panorama.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 240px;
+}
