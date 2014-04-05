@@ -1,75 +1,297 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head>
     <meta charset="utf-8">
-    <title>Liberal Arts Initiative Summer School</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-    <link href="Metro-UI-CSS/css/modern.css" rel="stylesheet">
-    <link href="Metro-UI-CSS/css/modern-responsive.css" rel="stylesheet">
-    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-    <!-- <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css"> -->
-    <!-- <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script> -->
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
-    <style type="text/css">
-      /* Large desktop */
-      @media (min-width: 980px) {
-      body {
-      padding-top: 20px;
-      width: 940px;
-      margin: auto;
-      }
-    </style>
+    <title>Liberal Arts Initiative</title>
+    <meta name="keywords" content="made with bootstrap, wrap bootstrap themes, bootstrap agency themes, creative bootstrap sites, Lava theme, responsive bootstrap theme, mobile website themes, bootstrap portfolio, theme armada">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    
+    <meta property="og:title" content="Liberal Arts Initiative">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Liberal Arts Initiative">
+    <meta property="og:description" content="organization website">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/flexslider.css">
+    <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    
+
+    <link rel="stylesheet" href="css/bootstrap2.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom-styles.css">
+
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
-  <body class="metrouicss" onload="prettyPrint()">
-    <div class="page">
-      <div class="brand"><img src="images/logo.jpg" class="img-rounded" style="height: 120px;"</div>
-			      <div class="nav-bar bg-color-pink">
-				<div class="nav-bar-inner padding20">
-	  <ul class="menu" style="overflow: visible;">
-	    <li><a href="index.html"><h2 class="fg-color-white">Home</h2></a></li>
-	    <li><a href="about.html"><h2 class="fg-color-white">About</h2></a></li>
-	    <li><a href="prof.html"><h2 class="fg-color-white">Professors</h2></a></li>
-	    <li><a href="curriculum.html"><h2 class="fg-color-white">Curriculum</h2></a></li>
-	    <li><a href="app.html"><h2 class="fg-color-white">Application</h2></a></li>
-	    <li><a href="contacts.html"><h2 class="fg-color-white">Contact Us</h2></a></li>
-	  </ul>
-	</div>
+
+
+  <body id="top" data-spy="scroll" data-target=".navbar">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html"><img src="img/logo-small.jpg" alt="logo" style="height: 80px;"></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right">
+              <li class><a class="scroll" href="#top">Home</a></li>
+              <li><a class="scroll" href="#about">About</a></li>
+              <li><a class="scroll" href="#curriculum">Curriculum</a></li>
+              <li><a class="scroll" href="#faculty">Faculty</a></li>
+              <li><a class="scroll" href="#application">Application</a></li>
+              <li><a class="scroll" href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
       </div>
     </div>
     
-    <div class="page">
-      <div class="page-region">
-	<div class="page-region-content">
-	  <div class="grid">
-	    <div class="row">
-	      <div class="span12">
-		<div class="image-collection">
-		  <div style="width: 100%; height:300px;">
-		    <img src="http://placehold.it/940x300">
-		    <div class="overlay">Lorem Ipsum</div>
-		  </div>
-		</div>
-	      </div>
-	    </div>
-	  </div>
-	  <div class="row">
-	    <div class="span8 body-text">
-	      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	    </div>
+    <section class="header-image">
+      <div class="container">
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+    	<div class="row">
+    	  <div class="span8">
+    	    <h3>What is LAISS?</h3>
 	  </div>
 	</div>
-	
-	<div class="page">
-	  <div class="nav-bar bg-color-pink">
-	    <div class="nav-bar-inner padding10">
-	      <span class="element">
-		Styled with <a class="fg-color-white" href="http://metroui.org.ua">Metro UI CSS</a>
-	      </span>
+	<div class="row">
+	  <div class="span8">
+	    <p class="lead">The Liberal Arts Initiative</p>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	    <p class="lead">Summer School</p>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  </div>
+    	  <div class="span4">
+	    <div class="thumbs">
+	      <img src="http://placehold.it/400x280" class="img-rounded">
 	    </div>
+	    <div class="project-title margin-30 text-center">
+      	      <h4>Image</h4>
+	    </div>
+    	  </div>
+	</div>
+	  <div class="row">
+	    <div class="span8">
+	      <h3>Why participate?</h3>
+	      <p class="lead">Recommendation Letter FTW</p>
+	      <p>Something goes here</p>
+	      <p class="lead">Liberal Arts Education</p>
+	      <p>Detailed Explanation</p>
+	      <p class="lead">Something else?</p>
+	      <p>Detailed Explanation</p>
+    	    </div>
+    	    <div class="span4">
+	      <div class="thumbs">
+		<img src="http://placehold.it/400x280" class="img-rounded">
+	      </div>
+	      <div class="project-title margin-30 text-center">
+      		<h4>Image</h4>
+	      </div>
+    	    </div>
+    	  </div>
+	</div>
+      </div>
+    </section>
+
+    <section id="testimonial">
+      <div class="container">
+    	<div class="row">
+    	  <div class="span3 margin-30">
+            <img src="http://placehold.it/200x200" class="img-rounded" alt="Title">
+    	  </div>
+	  
+    	  <div class="span9">
+            <h2>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua.”</h2>
+            <div class="testimonial-source pull-right">Hongye Guo - Founder | Amherst Class of 2015</div>
+    	  </div>
+    	</div>
+      </div>
+    </section>
+
+    <section id="curriculum">
+      <div class="container">
+        <div class="row margin-40">
+          <div class="span12 text-center dark-gray">
+            <h3>Curriculum</h3>
+          </div>
+        </div>
+        
+        <div class="row-fluid">
+          
+          <!--News Article-->
+          <div class="span4 text-center latest-article">
+            <img src="http://placehold.it/320x150" alt="Title">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+            <a class="more" href="#"><i class="icon-chevron-sign-right icon-2x margin-20 gray"></i></a>
+          </div>
+          
+          <!--News Article-->
+          <div class="span4 text-center latest-article">
+            <img src="http://placehold.it/320x150" alt="Title">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+            <a class="more" href="#"><i class="icon-chevron-sign-right icon-2x margin-20 gray"></i></a>
+          </div>
+          
+          <!--News Article-->
+          <div class="span4 text-center latest-article">
+            <img src="http://placehold.it/320x150" alt="Title">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+            <a class="more" href="#"><i class="icon-chevron-sign-right icon-2x margin-20 gray"></i></a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="faculty">
+      <div class="container">
+	<div class="row">
+	  <div class="span12">
+	    <h3>Our Faculty</h3>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="span9">
+	    <p class="lead">Lorem Ipsum<p>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="span9">
+	    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+	  </div>
+	  <div class="span3 text-center">
+	    <a href=""><img class="img-rounded" src="http://placehold.it/120x120"></a>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="span9">
+	    <p class="lead">Lorem Ipsum<p>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="span9">
+	    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+	  </div>
+	  <div class="span3 text-center">
+	    <a href=""><img class="img-rounded" src="http://placehold.it/120x120"></a>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="span9">
+	    <p class="lead">Lorem Ipsum<p>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="span9">
+	    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+	  </div>
+	  <div class="span3 text-center">
+	    <a href=""><img class="img-rounded" src="http://placehold.it/120x120"></a>
 	  </div>
 	</div>
       </div>
+    </section>
+
+    <section id="application">
+      <div class="container">
+	<div class="row">
+	  <div class="span6">
+	    <h3>The Application Process</h3>
+	    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+	  </div>
+	  <div class="span6">
+	    <p class="lead">Application Form</p>
+	    <form id="application-form">
+	      <input type="text" placeholder="Your Name"></input><br>
+	      <input type="text" placeholder="Your Year"></input><br>
+	      <textarea id="app-ps" rows="6" placeholder="Personal Statement"></textarea>
+	    </form>
+	    <button class="btn btn-primary btn-large">Submit</button>
+	  </div>
+	</div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="container">
+        <div class="span8 offset2 text-center">
+	  <h2>Contact Us: What's on your mind?</h2>
+	  <form id="email-form">
+            <textarea rows="6" placeholder="Your story"></textarea>
+            <input type="text" id="email-addr" placeholder="your@e-mail.com"><br>
+            <input type="text" id="email-addr" placeholder="Name"><br>
+	  </form>
+          <button class="btn btn-success btn-large btn-centered">Send Message</button>
+        </div>
+        <div class="span6">
+          <div class="btn-container centered lazy-container text-center loaded">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="bottom">
+      <div class="container">
+        <div class="row margin-40">
+          <div class="span10 offset1 text-center">
+            <p>1234 Main Street Atlanta, GA 30305 | (+86) 130-0000-0000  |  <a href="mailto:laiss.common@gmail.com"><i class="icon-envelope-alt"></i> laiss.common@gmail.com</a></p>
+            <hr>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="span10 offset1 text-center">
+            <!--Social Icons-->          
+            <ul class="social-icons">
+    	      <li><a class="twitter" href="http://www.twitter.com/themearmada" target="_blank"><i class="icon-twitter icon-3x"></i></a></li>
+    	      <li><a class="facebook" href="http://www.facebook.com" target="_blank"><i class="icon-facebook icon-3x"></i></a></li>
+    	      <li><a class="google" href="http://www.googleplus.com" target="_blank"><i class="icon-google-plus icon-3x"></i></a></li>
+    	      <li><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="icon-camera-retro icon-3x"></i></a></li>
+    	      <li><a class="pinterest" href="http://www.pinterest.com" target="_blank"><i class="icon-pinterest icon-3x"></i></a></li>
+    	      <li><a class="linkedin" href="http://www.linkedin.com" target="_blank"><i class="icon-linkedin icon-3x"></i></a></li>
+    	      <li><a class="Github" href="http://www.github.com" target="_blank"><i class="icon-github-alt icon-3x"></i></a></li>
+    	    </ul>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <a href="#top" class="scrollToTop hidden-phone" >
+      <i class="icon-chevron-up"></i>
+    </a>
+    
+    <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="js/bootstrap2.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/rotate.js"></script>
+    <script src="js/twitter-feed.js"></script>
+    <!--Twitter Handle - Insert your Twitter username below ex: (screen_name=USERNAME&include) -->
+    <script src="http://api.twitter.com/1/statuses/user_timeline.json?screen_name=themearmada&amp;include_rts=true&amp;count=4&amp;callback=twitterCallback2" type="text/javascript"></script>
+    
+    <script type="text/javascript">var vglnk = {api_url: '//api.viglink.com/api', key: '0dff9ade2d1125af6c910069b6d6e155'};</script>
+
   </body>
 </html>
