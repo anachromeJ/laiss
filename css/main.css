@@ -52,11 +52,11 @@ p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
-  color: #a5b2b9;
+  color: #6e838e;
 }
 
 p.lead {
-  color: #660066;
+  color: #0099cc;
 }
 
 a {
@@ -70,7 +70,7 @@ a:hover {
 }
 
 .btn-main {
-	  background: #660066 repeat scroll 0 0;
+	  background: #0099cc repeat scroll 0 0;
     border: none;
     font-weight: 800;
     border-radius: 2px;
@@ -105,11 +105,11 @@ a:hover {
 }
 
 ::selection {
-	background: #660066; /* Safari */
+	background: #0099cc; /* Safari */
 	color: #FFFFFF;
 }
 ::-moz-selection {
-	background: #660066; /* Firefox */
+	background: #0099cc; /* Firefox */
 	color: #FFFFFF;
 }
 
@@ -192,7 +192,7 @@ a:hover {
 }
 
 .gray {
-  color: #a5b2b9;
+  color: #6e838e;
 }
 
 .light-gray {
@@ -203,7 +203,7 @@ a:hover {
   color: #FFFFFF;
 }
 .orange {
-  color: #660066;
+  color: #0099cc;
 }
 
 
@@ -212,14 +212,14 @@ a:hover {
    ========================================================================== */
 
 .navbar-inverse .navbar-inner {
-  background: #660066;
+  background: #0099cc;
   background-repeat: repeat-x;
-  border-color: #660066;
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#660066', endColorstr='#660066', GradientType=0)
+  border-color: #0099cc;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0099cc', endColorstr='#0099cc', GradientType=0)
 }
 
 .nav-collapse, .nav-collapse.collapse {
-    background: none repeat scroll 0 0 #660066;
+    background: none repeat scroll 0 0 #0099cc;
     height: 0;
     overflow: hidden;
 }
@@ -315,7 +315,7 @@ a:hover {
     background-image: none;
     background-image: -webkit-linear-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(transparent));
     background-repeat: no-repeat;
-    color: #660066;
+    color: #0099cc;
     text-decoration: none;
 }
 
@@ -491,7 +491,7 @@ a:hover {
 }
 
 .side-links li a {
-  color: #660066;
+  color: #0099cc;
   font-weight: 600;
 }
 
@@ -521,7 +521,7 @@ a:hover {
 
 .progress .bar {
   -moz-box-sizing: border-box;
-  background-color: #A5B2B9;
+  background-color: #6E838E;
   background-image: none;
   background-repeat: repeat-x;
   box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
@@ -548,7 +548,7 @@ a:hover {
   right: -8px;
   border-style: solid;
   border-width: 8px 0 8px 8px;
-  border-color: transparent #A5B2B9;
+  border-color: transparent #6E838E;
   display: block;
   width: 0;
   z-index: 1;
@@ -648,7 +648,7 @@ a:hover {
 }
 
 .team-info {
-  background: #660066;
+  background: #0099cc;
   padding: 10px 10px 10px 10px;
   height: 60px;
 }
@@ -702,7 +702,7 @@ a:hover {
 
 
 .headline {
-  background: #660066;
+  background: #0099cc;
   padding: 6px 6px 0px 6px;
   background-size: contain;
   position: relative;
@@ -721,7 +721,7 @@ bottom: -15px;
 left: 44%;
 border-style: solid;
 border-width: 15px 15px 0;
-border-color: #660066 transparent;
+border-color: #0099cc transparent;
 display: block;
 z-index: 1;
 }
@@ -739,7 +739,7 @@ z-index: 1;
 
 .price small {
   font-weight: 300;
-  color: #a5b2b9;
+  color: #6e838e;
 }
 
 .info {
@@ -747,7 +747,7 @@ z-index: 1;
   padding-bottom: 20px;
   font-weight: 300;
   font-size: 13px;
-  color: #a5b2b9;
+  color: #6e838e;
 }
 
 .features {
@@ -918,7 +918,7 @@ ul.social-icons-signup li a:hover {
    Message Styles
    ========================================================================== */
 #message {
-  background: #a5b2b9;
+  background: #6e838e;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -1001,7 +1001,7 @@ ul.icons li {
 }
 
 .testimonial-source {
-  background: #660066;
+  background: #0099cc;
   text-align: center;
   padding: 12px 14px;
   color: #FFFFFF;
@@ -1122,11 +1122,11 @@ ul#twitter_update_list li {
 }
 
 #bottom p a {
-  color: #A5B2B9;
+  color: #6E838E;
 }
 
 #bottom p a:hover {
-  color: #660066;
+  color: #0099cc;
 	text-decoration: none;
 }
 
@@ -1135,6 +1135,14 @@ hr {
   height: 0;
   border-top: 1px solid #26292B;
   border-bottom: 1px solid rgba(97,102,104,0.85);
+}
+
+ol li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #6e838e;
 }
 
 ul.social-icons {
@@ -1149,7 +1157,7 @@ ul.social-icons li {
 }
 
 ul.social-icons li a {
-	color: #660066;
+	color: #0099cc;
 	text-decoration: none;
 }
 

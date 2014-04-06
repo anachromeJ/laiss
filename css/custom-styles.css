@@ -4,9 +4,9 @@
    ========================================================================== */ 
 
 #contact {
-    background: #660066;
+    background: #0099cc;
     background-repeat: repeat-x;
-    border-color: #660066;
+    border-color: #0099cc;
     margin-top: 0px;
     padding-bottom: 10px;
 }
@@ -21,7 +21,7 @@
 }
 
 #faculty p.lead {
-    color: #660066;
+    color: #0099cc;
 }
 
 textarea {
