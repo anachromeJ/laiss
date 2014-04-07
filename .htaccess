@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?laiss.us$
+RewriteRule ^(/)?$ cn [L]
